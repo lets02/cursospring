@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página do Administrador</title>
+    <div th:insert="~{fragmentos/head}"></div>
+    <link rel="stylesheet" th:href="@{css/style-interna.css}">
+</head>
+
+<body>
+    <div class="container">
+        <div th:insert="~{fragmentos/header :: header}"><!-- barra de menu --></div>
+        <div class="card">
+            <div class="card-title">Cadastrar Alunos</div>
+            <div class="card-content">Clique no link abaixo para cadastrar novos alunos.</div>
+            <a href="/cadastro-aluno" class="card-link">Cadastrar Alunos</a>
+        </div>
+
+        <div class="card">
+            <div class="card-title">Cadastrar Professores</div>
+            <div class="card-content">Clique no link abaixo para cadastrar novos professores.</div>
+            <a href="/cadastro-professor" class="card-link">Cadastrar Professores</a>
+        </div>
+    </div>
+
+</body>
+
+</html>
