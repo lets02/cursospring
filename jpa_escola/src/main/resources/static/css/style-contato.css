@@ -59,3 +59,14 @@ h1 {
 .form-group input[type="submit"]:hover {
     background-color: #45a049;
 }
+.footer {
+    margin-top: 204px;
+    padding: 10px;
+    background-color: #ce7cb9;
+    color: #fff;
+    text-align: center;
+}
+
+.footer p {
+    margin: 0;
+}

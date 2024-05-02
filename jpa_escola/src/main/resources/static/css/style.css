@@ -1,5 +1,5 @@
 header {
-    background-color: #db85b4;
+    background-color: #ce7cb9;;
     color: #fff;
     padding: 10px 0;
     text-align: center;
@@ -23,7 +23,7 @@ nav a {
 
 
 nav a:hover {
-    background-color: #555;
+    background-color: #a84297;
 }
 
 .footer {
